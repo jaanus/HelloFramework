@@ -18,6 +18,17 @@
 		EAB37B02196C82E8006CDF37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37AE1196C82E8006CDF37 /* Cocoa.framework */; };
 		EAB37B0A196C82E8006CDF37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB37B08196C82E8006CDF37 /* InfoPlist.strings */; };
 		EAB37B0C196C82E8006CDF37 /* HelloFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB37B0B196C82E8006CDF37 /* HelloFrameworkTests.m */; };
+		EAB37B1B196C830D006CDF37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37AE1196C82E8006CDF37 /* Cocoa.framework */; };
+		EAB37B21196C830D006CDF37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB37B1F196C830D006CDF37 /* InfoPlist.strings */; };
+		EAB37B25196C830D006CDF37 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB37B24196C830D006CDF37 /* Hello.m */; };
+		EAB37B2B196C830D006CDF37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37B00196C82E8006CDF37 /* XCTest.framework */; };
+		EAB37B2C196C830D006CDF37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37AE1196C82E8006CDF37 /* Cocoa.framework */; };
+		EAB37B2F196C830D006CDF37 /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37B1A196C830D006CDF37 /* Hello.framework */; };
+		EAB37B35196C830D006CDF37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAB37B33196C830D006CDF37 /* InfoPlist.strings */; };
+		EAB37B37196C830D006CDF37 /* HelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB37B36196C830D006CDF37 /* HelloTests.m */; };
+		EAB37B40196C8434006CDF37 /* Hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB37B1A196C830D006CDF37 /* Hello.framework */; };
+		EAB37B41196C8446006CDF37 /* Hello.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB37B23196C830D006CDF37 /* Hello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAB37B43196C8533006CDF37 /* Hello.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EAB37B1A196C830D006CDF37 /* Hello.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +39,34 @@
 			remoteGlobalIDString = EAB37ADD196C82E8006CDF37;
 			remoteInfo = HelloFramework;
 		};
+		EAB37B2D196C830D006CDF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB37AD6196C82E8006CDF37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB37B19196C830D006CDF37;
+			remoteInfo = Hello;
+		};
+		EAB37B3E196C842B006CDF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB37AD6196C82E8006CDF37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB37B19196C830D006CDF37;
+			remoteInfo = Hello;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAB37B42196C852C006CDF37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EAB37B43196C8533006CDF37 /* Hello.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EAB37ADE196C82E8006CDF37 /* HelloFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +88,16 @@
 		EAB37B07196C82E8006CDF37 /* HelloFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloFrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		EAB37B09196C82E8006CDF37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAB37B0B196C82E8006CDF37 /* HelloFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloFrameworkTests.m; sourceTree = "<group>"; };
+		EAB37B1A196C830D006CDF37 /* Hello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB37B1E196C830D006CDF37 /* Hello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello-Info.plist"; sourceTree = "<group>"; };
+		EAB37B20196C830D006CDF37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB37B22196C830D006CDF37 /* Hello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-Prefix.pch"; sourceTree = "<group>"; };
+		EAB37B23196C830D006CDF37 /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		EAB37B24196C830D006CDF37 /* Hello.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+		EAB37B2A196C830D006CDF37 /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB37B32196C830D006CDF37 /* HelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloTests-Info.plist"; sourceTree = "<group>"; };
+		EAB37B34196C830D006CDF37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAB37B36196C830D006CDF37 /* HelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB37B40196C8434006CDF37 /* Hello.framework in Frameworks */,
 				EAB37AE2196C82E8006CDF37 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +119,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAB37B16196C830D006CDF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B1B196C830D006CDF37 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB37B27196C830D006CDF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B2C196C830D006CDF37 /* Cocoa.framework in Frameworks */,
+				EAB37B2F196C830D006CDF37 /* Hello.framework in Frameworks */,
+				EAB37B2B196C830D006CDF37 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +145,8 @@
 			children = (
 				EAB37AE7196C82E8006CDF37 /* HelloFramework */,
 				EAB37B05196C82E8006CDF37 /* HelloFrameworkTests */,
+				EAB37B1C196C830D006CDF37 /* Hello */,
+				EAB37B30196C830D006CDF37 /* HelloTests */,
 				EAB37AE0196C82E8006CDF37 /* Frameworks */,
 				EAB37ADF196C82E8006CDF37 /* Products */,
 			);
@@ -88,6 +157,8 @@
 			children = (
 				EAB37ADE196C82E8006CDF37 /* HelloFramework.app */,
 				EAB37AFF196C82E8006CDF37 /* HelloFrameworkTests.xctest */,
+				EAB37B1A196C830D006CDF37 /* Hello.framework */,
+				EAB37B2A196C830D006CDF37 /* HelloTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +225,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EAB37B1C196C830D006CDF37 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				EAB37B23196C830D006CDF37 /* Hello.h */,
+				EAB37B24196C830D006CDF37 /* Hello.m */,
+				EAB37B1D196C830D006CDF37 /* Supporting Files */,
+			);
+			path = Hello;
+			sourceTree = "<group>";
+		};
+		EAB37B1D196C830D006CDF37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB37B1E196C830D006CDF37 /* Hello-Info.plist */,
+				EAB37B1F196C830D006CDF37 /* InfoPlist.strings */,
+				EAB37B22196C830D006CDF37 /* Hello-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB37B30196C830D006CDF37 /* HelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB37B36196C830D006CDF37 /* HelloTests.m */,
+				EAB37B31196C830D006CDF37 /* Supporting Files */,
+			);
+			path = HelloTests;
+			sourceTree = "<group>";
+		};
+		EAB37B31196C830D006CDF37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB37B32196C830D006CDF37 /* HelloTests-Info.plist */,
+				EAB37B33196C830D006CDF37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAB37B17196C830D006CDF37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B41196C8446006CDF37 /* Hello.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		EAB37ADD196C82E8006CDF37 /* HelloFramework */ = {
@@ -164,10 +284,12 @@
 				EAB37ADA196C82E8006CDF37 /* Sources */,
 				EAB37ADB196C82E8006CDF37 /* Frameworks */,
 				EAB37ADC196C82E8006CDF37 /* Resources */,
+				EAB37B42196C852C006CDF37 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EAB37B3F196C842B006CDF37 /* PBXTargetDependency */,
 			);
 			name = HelloFramework;
 			productName = HelloFramework;
@@ -192,6 +314,42 @@
 			productReference = EAB37AFF196C82E8006CDF37 /* HelloFrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EAB37B19196C830D006CDF37 /* Hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB37B38196C830D006CDF37 /* Build configuration list for PBXNativeTarget "Hello" */;
+			buildPhases = (
+				EAB37B15196C830D006CDF37 /* Sources */,
+				EAB37B16196C830D006CDF37 /* Frameworks */,
+				EAB37B17196C830D006CDF37 /* Headers */,
+				EAB37B18196C830D006CDF37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hello;
+			productName = Hello;
+			productReference = EAB37B1A196C830D006CDF37 /* Hello.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAB37B29196C830D006CDF37 /* HelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB37B3B196C830D006CDF37 /* Build configuration list for PBXNativeTarget "HelloTests" */;
+			buildPhases = (
+				EAB37B26196C830D006CDF37 /* Sources */,
+				EAB37B27196C830D006CDF37 /* Frameworks */,
+				EAB37B28196C830D006CDF37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB37B2E196C830D006CDF37 /* PBXTargetDependency */,
+			);
+			name = HelloTests;
+			productName = HelloTests;
+			productReference = EAB37B2A196C830D006CDF37 /* HelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +360,9 @@
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					EAB37AFE196C82E8006CDF37 = {
+						TestTargetID = EAB37ADD196C82E8006CDF37;
+					};
+					EAB37B29196C830D006CDF37 = {
 						TestTargetID = EAB37ADD196C82E8006CDF37;
 					};
 				};
@@ -221,6 +382,8 @@
 			targets = (
 				EAB37ADD196C82E8006CDF37 /* HelloFramework */,
 				EAB37AFE196C82E8006CDF37 /* HelloFrameworkTests */,
+				EAB37B19196C830D006CDF37 /* Hello */,
+				EAB37B29196C830D006CDF37 /* HelloTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +408,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAB37B18196C830D006CDF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B21196C830D006CDF37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB37B28196C830D006CDF37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B35196C830D006CDF37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,6 +444,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAB37B15196C830D006CDF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B25196C830D006CDF37 /* Hello.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB37B26196C830D006CDF37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37B37196C830D006CDF37 /* HelloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -272,6 +467,16 @@
 			isa = PBXTargetDependency;
 			target = EAB37ADD196C82E8006CDF37 /* HelloFramework */;
 			targetProxy = EAB37B03196C82E8006CDF37 /* PBXContainerItemProxy */;
+		};
+		EAB37B2E196C830D006CDF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB37B19196C830D006CDF37 /* Hello */;
+			targetProxy = EAB37B2D196C830D006CDF37 /* PBXContainerItemProxy */;
+		};
+		EAB37B3F196C842B006CDF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB37B19196C830D006CDF37 /* Hello */;
+			targetProxy = EAB37B3E196C842B006CDF37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -304,6 +509,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAB37B09196C82E8006CDF37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAB37B1F196C830D006CDF37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB37B20196C830D006CDF37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAB37B33196C830D006CDF37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB37B34196C830D006CDF37 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -447,6 +668,80 @@
 			};
 			name = Release;
 		};
+		EAB37B39196C830D006CDF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hello/Hello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		EAB37B3A196C830D006CDF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				INFOPLIST_FILE = "Hello/Hello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		EAB37B3C196C830D006CDF37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloFramework.app/Contents/MacOS/HelloFramework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloTests/HelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAB37B3D196C830D006CDF37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloFramework.app/Contents/MacOS/HelloFramework";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello/Hello-Prefix.pch";
+				INFOPLIST_FILE = "HelloTests/HelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,6 +767,22 @@
 			buildConfigurations = (
 				EAB37B13196C82E8006CDF37 /* Debug */,
 				EAB37B14196C82E8006CDF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAB37B38196C830D006CDF37 /* Build configuration list for PBXNativeTarget "Hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB37B39196C830D006CDF37 /* Debug */,
+				EAB37B3A196C830D006CDF37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAB37B3B196C830D006CDF37 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB37B3C196C830D006CDF37 /* Debug */,
+				EAB37B3D196C830D006CDF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
