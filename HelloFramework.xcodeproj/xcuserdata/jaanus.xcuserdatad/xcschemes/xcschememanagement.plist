@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Hello.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HelloFramework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>EAB37AFE196C82E8006CDF37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAB37B19196C830D006CDF37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAB37B29196C830D006CDF37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
