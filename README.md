@@ -1,0 +1,1 @@
+A small test about how to create OS X private frameworks with the right build settings. [See the blog post.](http://jaanus.com/blog/2014/07/09/how-to-correcty-configure-building-private-slash-embeddable-os-x-frameworks/)
